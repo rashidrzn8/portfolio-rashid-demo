@@ -3955,6 +3955,14 @@ section {
   .header {
     padding: 10px 0px;
     font-size: small;
+    position: inherit;
+
+    padding-left: -30px;
+    margin-left: 0px;
+  }
+  .header .logo {
+    padding: 0;
+    margin-left: 0; /* Adjust logo size */
   }
   .icons a,
   .icons div {
@@ -3963,7 +3971,7 @@ section {
 }
 @media (max-width: 768px) {
   .home {
-    padding: 60px 0px;
+    padding: 60px -0px;
   }
   .icons a,
   .icons div {
